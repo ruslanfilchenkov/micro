@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "changelogDate": "20240205113732"
+  },
+  "applications": "*",
+  "clientRootFolder": "micro",
+  "databaseType": "sql",
+  "entityTableName": "department",
+  "fields": [
+    {
+      "fieldName": "departmentName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "microserviceName": "micro",
+  "name": "Department",
+  "relationships": [
+    {
+      "otherEntityName": "location",
+      "relationshipName": "location",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "documentation": "A relationship",
+      "otherEntityName": "employee",
+      "otherEntityRelationshipName": "department",
+      "relationshipName": "employee",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

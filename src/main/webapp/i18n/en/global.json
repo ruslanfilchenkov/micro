@@ -7,7 +7,15 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "microRegion": "Region",
+        "microCountry": "Country",
+        "microLocation": "Location",
+        "microDepartment": "Department",
+        "microTask": "Task",
+        "microEmployee": "Employee",
+        "microJob": "Job",
+        "microJobHistory": "Job History"
       },
       "account": {
         "main": "Account",

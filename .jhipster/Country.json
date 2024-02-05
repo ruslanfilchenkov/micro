@@ -1,0 +1,27 @@
+{
+  "annotations": {
+    "changelogDate": "20240205113532"
+  },
+  "applications": "*",
+  "clientRootFolder": "micro",
+  "databaseType": "sql",
+  "entityTableName": "country",
+  "fields": [
+    {
+      "fieldName": "countryName",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "micro",
+  "name": "Country",
+  "relationships": [
+    {
+      "otherEntityName": "region",
+      "relationshipName": "region",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
