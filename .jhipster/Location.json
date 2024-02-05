@@ -1,0 +1,40 @@
+{
+  "annotations": {
+    "changelogDate": "20240205113632"
+  },
+  "applications": "*",
+  "clientRootFolder": "micro",
+  "databaseType": "sql",
+  "documentation": "not an ignored comment",
+  "entityTableName": "location",
+  "fields": [
+    {
+      "fieldName": "streetAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postalCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "stateProvince",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "micro",
+  "name": "Location",
+  "relationships": [
+    {
+      "otherEntityName": "country",
+      "relationshipName": "country",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

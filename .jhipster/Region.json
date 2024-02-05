@@ -1,0 +1,20 @@
+{
+  "annotations": {
+    "changelogDate": "20240205113432"
+  },
+  "applications": "*",
+  "clientRootFolder": "micro",
+  "databaseType": "sql",
+  "entityTableName": "region",
+  "fields": [
+    {
+      "fieldName": "regionName",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "micro",
+  "name": "Region",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
